@@ -19,5 +19,4 @@ WORKDIR "/DATA/git/AllanWilsonMinecraft"
 RUN chmod 777 start_minecraft_cloud.sh
 RUN pwd
 RUN ls -lah
-RUN ./start_minecraft_cloud.sh
 EXPOSE 25565
